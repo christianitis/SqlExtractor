@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlExtractor", "SqlExtractor\SqlExtractor.csproj", "{B6D2EE48-2932-4DB2-BC73-38A2C68A4E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlExtractor_Test", "SqlExtractor_Test\SqlExtractor_Test.csproj", "{23D401E8-2EEB-4528-BB07-78E3E4D39C9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D2EE48-2932-4DB2-BC73-38A2C68A4E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D2EE48-2932-4DB2-BC73-38A2C68A4E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D2EE48-2932-4DB2-BC73-38A2C68A4E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D2EE48-2932-4DB2-BC73-38A2C68A4E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D401E8-2EEB-4528-BB07-78E3E4D39C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D401E8-2EEB-4528-BB07-78E3E4D39C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D401E8-2EEB-4528-BB07-78E3E4D39C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D401E8-2EEB-4528-BB07-78E3E4D39C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

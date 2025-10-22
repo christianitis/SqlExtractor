@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>icon.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+      <PackageReference Include="MdXaml" Version="1.27.0" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.4" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.4" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.4" />
+      <PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="172.76.0" />
+      <PackageReference Include="Microsoft.SqlServer.TransactSql.ScriptDom" Version="170.128.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Data.SqlClient">
+        <HintPath>bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <EmbeddedResource Include="../README.md" />
+    </ItemGroup>
+</Project>
