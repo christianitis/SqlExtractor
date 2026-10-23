@@ -1,4 +1,5 @@
-﻿# SQL Extractor Tool
+﻿# SQL Extractor
+### Copyright 2026 Christian Hollinger 
 - *v1.3.1: Current Version*
 - v1.3.0
 - v1.2.2
@@ -85,9 +86,6 @@ It is stored in an ini-like format.
 The available metadata tags are as follows:
 
 | Tag            | Description                                                          |
------------------------------------------------------------------------------------------
+|----------------|----------------------------------------------------------------------|
 | URN            | The object's URN.                                                    |
 | OriginalServer | The IP address of the server where this object was originally found. |
-
-## Questions? Comments? Concerns? Feedback?
-[Email me!](mailto:christian.hollinger@elementlogic.us)
